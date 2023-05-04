@@ -46,9 +46,6 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 }
-/* .container-hero {
-  background-image: url(../images/hero/bg.jpg);
-} */
 
 .visually-hidden {
   position: absolute;
@@ -276,6 +273,21 @@ img {
   letter-spacing: 0.02em;
   color: var(--color-secondary-text);
 }
+
+.icon-strategy:hover {
+  cursor: pointer;
+  fill: #4d5ae5;
+}
+
+.icon-features {
+  width: 264px;
+  height: 112px;
+  background: #f4f4fd;
+  border-radius: 4px;
+  text-align: center;
+  padding-top: 24px;
+  margin-bottom: 8px;
+}
 /* .............................About Team....................... */
 .title-item {
   font-weight: 700;
@@ -348,10 +360,55 @@ img {
   background-color: #4d5ae5;
 }
 
+.social-list-link:hover {
+  background-color: var(--accent-pressed-state);
+}
+
 .social-list-icon {
   fill: #f4f4fd;
 }
-/* .................footer................ */
+
+/* ................................Customers.......................... */
+.customers-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.customers-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #8e8f99;
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+}
+
+.customers-list-icon {
+  fill: #8e8f99;
+}
+.customers-list-icon:hover {
+  stroke: var(--accent-pressed-state);
+}
+
+/* .section-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  border-radius: 0px 0px 4px 4px;
+} */
+
+/* .card-bg {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+  background: var(--primary-color);
+  flex-basis: calc((100% - 72px) / 4);
+} */
+
+/* ................................footer............................. */
 .address-footer {
   padding: 100px 0;
   background: var(--secondary-bg-color);
@@ -361,6 +418,38 @@ img {
 .footer-text {
   width: 264px;
   margin-right: auto;
+}
+
+.social-media-div {
+  margin-left: 120px;
+}
+
+.footer-text-social-media {
+  width: 208px;
+  margin-bottom: 16px;
+}
+
+.footer-div {
+  display: flex;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.social-media-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+.social-media-link:hover {
+  background-color: #31d0aa;
 }
 
 /* .........................Portfolio................... */
