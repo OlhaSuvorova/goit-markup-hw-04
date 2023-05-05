@@ -402,14 +402,14 @@ img {
   border: 1px solid #8e8f99;
   border-radius: 4px;
 }
+.customers-list-link:hover,
+.customers-list-link:focus {
+  border-color: var(--accent-pressed-state);
+  color: var(--accent-pressed-state);
+}
 
 .customers-list-icon {
   fill: currentColor;
-}
-.customers-list-icon:hover,
-.customers-list-icon:focus {
-  border-color: var(--accent-pressed-state);
-  color: var(--accent-pressed-state);
 }
 
 .section-customers {
@@ -429,10 +429,6 @@ img {
   margin-right: auto;
 }
 
-/* .social-media-div {
-  margin-left: 120px;
-} */
-
 .footer-text-social-media {
   width: 208px;
   font-weight: 500;
@@ -445,7 +441,10 @@ img {
 .footer-div {
   display: flex;
   align-items: baseline;
-  gap: 120px;
+}
+
+.footer-logo-text {
+  margin-right: 120px;
 }
 
 .social-media {
